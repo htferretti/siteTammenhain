@@ -1,0 +1,158 @@
+.intro {
+    background-image: url(imagens/wpp1.jpg);
+}
+
+.intro .col-lg-8 {
+    padding: 0;
+}
+
+/* TITLE */
+.intro .title {
+    text-align: center;
+    width: 96%;
+}
+
+.intro .title > a {
+    text-decoration: none;
+}
+
+.intro .title a > h1 {
+    font-size: 120px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: white;
+    margin: 30px 0;
+}
+
+.intro .title .social {
+    display: grid;
+    position: absolute;
+    top: 0;
+    right: 52px;
+    margin: 52px 0;  
+}
+
+.intro .title .social a {
+    color: white;
+    font-size: 22px;
+    transition: .3s;
+}
+
+.intro .title .social a:hover {
+    color: #99BFD2;
+}
+
+/* MENU */
+.intro .menu {
+    margin: 15px;
+    width: 95%;
+    position: absolute;
+    text-align: center;
+    left: -15px;
+}
+
+.intro .menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+    transition: .3s;
+    margin: 0 15px;
+}
+
+.intro .menu a:hover {
+    color: #99BFD2;
+}
+
+.intro .menu .about {
+    display: none;
+}
+
+@media only screen and (max-width: 1650px) {
+    .intro .title {
+        text-align: center;
+        width: 100%;
+    }
+
+    .intro .title a > h1 {
+        margin: 30px 0 0 0;
+    }
+
+    .intro .title .social {
+        display: table;
+        position: relative;
+        text-align: center;
+        right: -10px;
+        margin: 0 auto; 
+    }
+    
+    .intro .title .social a {
+        margin: 0 15px;
+    }
+
+    .intro .menu {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 1199px) {
+    .intro .title a > h1 {
+        font-size: 100px;
+        margin-top: 50px;
+    }
+
+    .intro .menu .about {
+        display: inline-block;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .intro .title a > h1 {
+        font-size: 80px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .intro .title a > h1 {
+        font-size: 60px;
+        margin-top: 80px;
+    }
+
+    .intro .menu a {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .intro .title a > h1 {
+        font-size: 50px;
+    }
+}
+
+@media only screen and (max-width: 490px) {
+    .intro .title a > h1 {
+        font-size: 40px;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .intro .title a > h1 {
+        font-size: 30px;
+    }
+
+    .intro .menu a {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .intro .title a > h1 {
+        font-size: 25px;
+    }
+
+    .intro .menu a {
+        font-size: 15px;
+    }
+}

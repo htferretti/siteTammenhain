@@ -1,0 +1,91 @@
+/*IMAGENS / INSTAGRAM*/
+.content .col-lg-8 {
+    padding: 0;
+}
+
+.content .row_img {
+    height: 60px;
+}
+
+.content .img0, .content .img1 {
+    position: absolute;
+}
+
+.content .img0 img {
+    width: 96%;
+}
+
+.content .img1 {
+    right: 0;
+    top: 10px;
+}
+
+.content .img1 img {
+    width: 300px;
+    transition: .3s;
+}
+
+.content .img1 img:hover {
+    transform: scale(1.05);
+}
+
+.content .instagram {
+    width: 400px;
+    height: 400px;
+    background: linear-gradient(125deg, violet, cornflowerblue);
+    border-radius: 25px;
+    margin: 10px auto;
+    display: table;
+    text-align: center;
+}
+
+.content .instagram h1 {
+    color: white;
+    font-size: 20px;
+    margin: 47% 0;
+}
+
+@media only screen and (max-width: 1650px) {
+    .content .img0 {
+        width: 1100px;
+    }
+
+    .content .img1 {
+        left: 0;
+        top: 10px;
+        display: table;
+        margin: 0 auto;
+    }
+    
+    .content .instagram {
+        width: 350px;
+        height: 350px;
+        margin: 35px auto;
+    }
+}
+
+@media only screen and (max-width: 1199px) {
+    .content .img0 {
+        display: none;
+    }
+
+    .content .row_img {
+        height: 0;
+    }
+
+    .content .instagram {
+        margin: 10px auto;
+    }
+
+    .content .img1 {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .content .instagram {
+        width: 300px;
+        height: 300px;
+        margin: 10px auto;
+    }
+}

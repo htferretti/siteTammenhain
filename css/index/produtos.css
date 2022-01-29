@@ -1,0 +1,131 @@
+.produtos {
+    background: white;
+}
+
+/*bloco*/
+.produtos .sem-swiper {
+    display: inline-flex;
+    margin: 100px 0 70px 0;
+}
+
+.produtos .produto {
+    width: 400px;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+.produtos .produto .imagem {
+    width: 400px;
+    height: 400px;
+    background-size: 400px;
+    transition: .3s;
+}
+
+.produtos .produto .title h1 {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: black;
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+
+.produtos .produto .title h2 {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: black;
+    margin: 0 0 30px 0;
+}
+
+.produtos .produto .title h2 > b {
+    font-weight: normal;
+    text-decoration: line-through 1px;
+    margin-right: 15px;
+}
+
+/*swiper*/
+.produtos .swiper-produtos {
+    display: none;
+    width: 830px;
+    margin: 100px 0 50px 0;
+}
+
+.produtos .swiper-produtos-sm {
+    display: none;
+    width: 400px;
+    margin: 100px 0 50px 0;
+}
+
+.produtos .swiper .swiper-pagination {
+    bottom: 0;
+}
+
+.produtos .swiper .swiper-pagination-bullet {
+    width: 5px;
+    height: 5px;
+    border-radius: 5px;
+    background: black;
+    opacity: 1;
+    transition: .3s;
+}
+
+.produtos .swiper .swiper-pagination-bullet-active {
+    width: 50px;
+}
+
+/*camisetas*/
+#camiseta1 .imagem {
+    background-image: url(imagens/produtos/tee1.png);
+}
+#camiseta1:hover .imagem {
+    background-image: url(imagens/produtos/tee1_.jpg);
+}
+
+#camiseta2 .imagem {
+    background-image: url(imagens/produtos/tee1.png);
+}
+#camiseta2:hover .imagem {
+    background-image: url(imagens/produtos/tee1_.jpg);
+}
+
+#camiseta3 .imagem {
+    background-image: url(imagens/produtos/tee1.png);
+}
+#camiseta3:hover .imagem {
+    background-image: url(imagens/produtos/tee1_.jpg);
+}
+
+@media only screen and (max-width: 1350px) {
+    .produtos .sem-swiper {
+        display: none;
+    }
+
+    .produtos .swiper-produtos {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .produtos .swiper-produtos {
+        display: none;
+    }
+
+    .produtos .swiper-produtos-sm {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .produtos .swiper-produtos-sm {
+        width: 300px;
+    }
+
+    .produtos .produto {
+        width: 300px;
+    }
+    
+    .produtos .produto .imagem {
+        width: 300px;
+        height: 300px;
+        background-size: 300px;
+    }
+}

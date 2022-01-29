@@ -1,0 +1,29 @@
+.conteudo section {
+    width: 70%;
+    margin: 100px 15%;
+}
+
+.conteudo section h1 {
+    color: white;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.conteudo section p {
+    color: white;
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 900px) {
+    .conteudo section {
+        width: 90%;
+        margin: 100px 5%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .conteudo section {
+        width: 95%;
+        margin: 100px 2.5%;
+    }
+}

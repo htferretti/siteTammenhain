@@ -1,0 +1,32 @@
+body {
+    background: linear-gradient(150deg, #120458, black);
+    background-attachment: fixed;
+}
+
+.container {
+    width: 100%;
+}
+
+/* SCROLLBAR */
+::-webkit-scrollbar-track {
+    background: black;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+   
+::-webkit-scrollbar-thumb {
+    background: #99BFD2;
+    border-radius: 10px;
+}
+
+/* OUTROS */
+.content .turquesa {
+    background: #192841;
+}
+
+.center {
+    display: table;
+    margin: 0 auto;
+}
